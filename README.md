@@ -33,7 +33,7 @@
 				-moz-background-size: cover;
 				-o-background-size: cover;
 				-ms-background-size: cover;
-				perspective: 1200px;//自己设置
+				perspective: 1200px;/*自己设置*/
 			}	
 .tranformObjectstyle {
 				width: 40%;
@@ -41,7 +41,7 @@
 				position: absolute;
 				left: 30%;
 				top: 30%;
-                //控制在父元素中居中
+                /*控制在父元素中*/
 }
 ```
 * 3、引用tranformYU.js 文件并调用函数
