@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			.containerstyle {
+				height: 700px;
+				/*自使用背景图片*/
+				background: url(img/banner.gif) no-repeat 0px 0px;
+				background-position: center;
+				background-size: cover;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				-ms-background-size: cover;
+				perspective: 1200px;
+				/* 透视视图 */
+			}
+			
+			.containerstyle .text {
+				padding: 30px;
+				width: 100%;
+				height: 100%;
+				color: #FFFFFF;
+				text-align: center;
+				background: transparent;
+				
+				font-family: "微软雅黑",arial;
+				font-size: 1.5em;
+				
+			}
+			
+			.tranformObjectstyle {
+				width: 40%;
+				height: 40%;
+				position: absolute;
+				left: 30%;
+				top: 30%;
+				background: transparent;
+			
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="containerstyle" id="container">
+			<div class="tranformObjectstyle" id="tranformObject">
+				<div class="text">
+					<h1>hello  我是余东海</h1>
+					<p>做自己喜欢的</p>
+				</div>
+			</div>
+			</section>
+
+			<script src="js/tranformYU.js"></script>
+
+			<!--使用tranformYU.js-->
+			<script type="text/javascript">
+				var container = document.getElementById("container");
+				var tranformObject = document.getElementById("tranformObject");
+				YUthreeD(container, tranformObject);
+			</script>
+
+	</body>
+
+</html>
